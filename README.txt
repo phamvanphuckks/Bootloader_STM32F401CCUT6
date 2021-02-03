@@ -1,1 +1,1 @@
-máy tính gửi file .bin xuống, MCU lưu vào flash
+máy tính gửi file .hex xuống, MCU lưu vào flash
