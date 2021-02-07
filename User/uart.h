@@ -3,12 +3,12 @@
   * @file    name.h
   * @author  PhamVanPhuckks
   * @date    2020
-  * @brief   This file contains all the functions prototypes for ...
+  * @brief   This file contains all the functions prototypes for the uart peripheral 
   *          firmware library functions (add-on to CMSIS functions).
   *********************************************************************************************
   * @attention
   * This file is used to declare function
-  * prototypes for the.....
+  * prototypes for the uart peripheral 
   * All information related to copyright contact phamvanphuckks@gmail.com
   *********************************************************************************************
   */
