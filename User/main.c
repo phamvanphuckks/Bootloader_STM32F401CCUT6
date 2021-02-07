@@ -48,7 +48,7 @@ int main()
         MODE_APPLICATION; // LED OFF
         JumpAddress = *(__IO uint32_t*) (ApplicationAddress + 4);
         Jump_To_Application = (pFunction) JumpAddress;
-        NVIC_SetVectorTable(NVIC_VectTab_FLASH, 0x4000);
+        //NVIC_SetVectorTable(NVIC_VectTab_FLASH, 0x4000);
         
         /* Initialize user application's Stack Pointer */
         __set_MSP(*(__IO uint32_t*) ApplicationAddress);
