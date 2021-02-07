@@ -88,9 +88,6 @@ void flashWriteString(uint32_t addr, char* data, int length)
     //FLASH->CR |= FLASH_CR_PG;
     for(int i = 0; i < length; i += 1)
     {
-//        while((FLASH->SR & FLASH_SR_BSY));
-//        *(__IO uint8_t*)(addr + i) = data[i];
-//        delay_us(3);
         FLASH->CR |= FLASH_CR_PG;
         while((FLASH->SR&FLASH_SR_BSY));
         *(__IO uint8_t*)(addr+i) = data[i]; // con tro kieu (uint8_t *), co size la 4byte de chua dia chia
