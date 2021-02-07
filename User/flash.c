@@ -3,7 +3,7 @@
   * @file    flash.c
   * @author  PhamVanPhuckks
   * @date    2020
-  * @brief   This file contains all the functions definition for ....
+  * @brief   This file contains all the functions definition for flash memory
   *          firmware library (add-on to CMSIS functions).
   ******************************************************************************
   * @attention
