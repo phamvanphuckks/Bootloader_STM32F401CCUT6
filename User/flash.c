@@ -39,7 +39,8 @@ uint32_t flashReadInt(uint32_t addr)
 
 uint16_t flashReadShort(uint32_t addr)
 {
-    return 0;
+	uint16_t* val = (uint8_t *)addr;
+	return *val; 
 }
 
 uint8_t flashReadByte(uint32_t addr)
